@@ -5,7 +5,7 @@
 A React + Vite template powered by shadcn/ui.
 
 > [!NOTE]
-> This template uses Tailwind v3, if you want to use Tailwind v4, check the [tw4 branch](https://github.com/dan5py/react-vite-shadcn-ui/tree/tw4).
+> This template uses Tailwind CSS v4 through the Vite plugin.
 
 ## 🎉 Features
 
@@ -13,10 +13,7 @@ A React + Vite template powered by shadcn/ui.
 - **Vite** - A fast, opinionated frontend build tool.
 - **TypeScript** - A typed superset of JavaScript that compiles to plain JavaScript.
 - **Tailwind CSS** - A utility-first CSS framework. (`v4`)
-- **Tailwind Prettier Plugin** - A Prettier plugin for formatting Tailwind CSS classes.
 - **ESLint** - A pluggable linting utility for JavaScript and TypeScript.
-- **PostCSS** - A tool for transforming CSS with JavaScript.
-- **Autoprefixer** - A PostCSS plugin to parse CSS and add vendor prefixes.
 - **shadcn/ui** - Beautifully designed components that you can copy and paste into your apps.
 
 ## ⚙️ Prerequisites
@@ -75,10 +72,9 @@ react-vite-ui/
   │   ├── styles/        # CSS stylesheets
   │   ├── lib/           # Utility functions
   │   ├── App.tsx        # Application entry point
-  │   └── index.tsx      # Main rendering file
+  │   └── main.tsx       # Main rendering file
   ├── eslint.config.js     # ESLint configuration
   ├── index.html         # HTML entry point
-  ├── postcss.config.js  # PostCSS configuration
   ├── tailwind.config.ts # Tailwind CSS configuration
   ├── tsconfig.json      # TypeScript configuration
   └── vite.config.ts     # Vite configuration
